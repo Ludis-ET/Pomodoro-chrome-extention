@@ -2,7 +2,7 @@ let timerInterval = null;
 let isRunning = false;
 let currentPhase = "work";
 let workDuration = 25 * 60;
-let breakDuration = 5 * 60;
+let breakDuration = 5 * 60; 
 let timer = workDuration;
 
 chrome.runtime.onInstalled.addListener(() => {
@@ -60,7 +60,7 @@ function resetTimer() {
 }
 
 function playNotificationSound() {
-  const notificationSound = new Audio("notification.wav");
+  const notificationSound = new Audio("assets/not.wav");
   notificationSound.play();
 }
 
@@ -79,5 +79,10 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
       sendResponse(res);
     });
     return true;
+  } else if (message.type === "SET_WORK_DURATION") {
+    workDuration = message.duration;
+    timer = workDuration;
+    chrome.storage.local.set({ workDuration, timer });
+    sendResponse({ status: "Work duration updated", workDuration });
   }
 });

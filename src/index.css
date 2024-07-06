@@ -11,7 +11,7 @@ html {
 }
 .card {
   position: relative;
-  margin:20px;
+  margin: 30px;
   padding: 20px;
   padding-bottom: 50px;
   width: 400px;
@@ -78,6 +78,7 @@ html {
   text-align: center;
   align-self: center;
   width: 125px;
+  margin-top: -30px;
 }
 
 button {
@@ -91,6 +92,7 @@ button {
   padding: 1em;
   font-weight: bold;
   text-transform: uppercase;
+  cursor: pointer;
   transition: 0.2s;
   border-radius: 5px;
   opacity: 0.8;
@@ -114,7 +116,6 @@ button:disabled {
   top: 4px;
   box-shadow: #c0392b 0px 3px 2px, #000 0px 3px 5px;
 }
-
 
 .last {
   position: absolute;
