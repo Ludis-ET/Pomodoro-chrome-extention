@@ -96,61 +96,30 @@ _Below is an example of how you can instruct your audience on installing and set
    cd Pomodoro-chrome-extention
    ```
 
-3. **Create a virtual environment**
+3. **Install dependencies**
 
    ```sh
-   python -m venv venv
+   yarn install
    ```
 
-4. **Activate the virtual environment**
-
-- On Windows:
+4. **Build the project**
 
 ```sh
-.\venv\Scripts\activate
+yarn build
+
 ```
 
-- On Unix or MacOS:
-
-```sh
-source venv/bin/activate
-```
-
-5. **Install required packages**
+5. **Load the extension in Chrome**
    ```sh
-   pip install -r requirements.txt
+   Open Chrome browser.
+   Go to chrome://extensions/.
+   Enable Developer mode by toggling the switch at the top right.
+   Click on the "Load unpacked" button and select the build folder from your project directory.
    ```
-6. **Apply migrations**
+6. **Run the extension**
    ```sh
-   python manage.py migrate
+   Once loaded, click on the Pomodoro Timer extension icon in the Chrome toolbar to start using it.
    ```
-7. **Run the development server**
-   ```sh
-   python manage.py runserver
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-[![Product Name Screen Shot][product-screenshott]](static/readme/screencapture-localhost-8000-admin-page-2024-02-15-19_46_08.png)
-
-<!-- USAGE EXAMPLES -->
-
-## Usage
-
-Remember to replace `3.9.18` with your preferred Python version if it's different. If you have any specific API keys or configuration steps related to your Django app, you can include them in the relevant sections of this guide.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ROADMAP
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish -->
 
 See the [open issues](https://github.com/Ludis-et/Pomodoro-chrome-extention/issues) for a full list of proposed features (and known issues).
 
