@@ -31,7 +31,7 @@
 
 <!-- ABOUT THE PROJECT -->
 
-[![Product Name Screen Shot][product-screenshot]](files/main.png)
+[![Product Name Screen Shot][product-screenshot]](![files/main.png](https://github.com/Ludis-ET/Pomodoro-chrome-extention/blob/main/files/main.png))
 
 ## About The Project
 
@@ -154,7 +154,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Your Name - [instagram](https://instagram.com/lulsgd) - leulsegedmelaku1020@gmail.com
+Ludis - [instagram](https://instagram.com/lulsgd) - leulsegedmelaku1020@gmail.com
 
 Project Link: [https://github.com/ludis-et/Pomodoro-chrome-extention](https://github.com/ludis-et/Pomodoro-chrome-extention)
 
