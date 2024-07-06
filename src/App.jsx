@@ -37,10 +37,10 @@ function App() {
 
   const handleWorkDurationChange = (event) => {
     const duration = parseInt(event.target.value);
-    setWorkDuration(duration); // Update local state
+    setWorkDuration(duration);
     chrome.runtime.sendMessage({
       type: "SET_WORK_DURATION",
-      duration: duration * 60, // Convert minutes to seconds
+      duration: duration * 60,
     });
   };
 
@@ -60,7 +60,7 @@ function App() {
           placeholder="Change timer"
           onChange={handleWorkDurationChange}
           disabled={isRunning}
-          value={workDuration} 
+          value={workDuration}
         />
       </div>
       <div className="but">
@@ -82,10 +82,14 @@ function App() {
               ></path>
             </svg>
           </div>
-          <div className="cube">
+          <a
+          target="_blank"
+            href="https://github.com/Ludis-ET/Pomodoro-chrome-extention"
+            className="cube"
+          >
             <span className="side front">Made by Ludis</span>
             <span className="side top">Check it on GitHub</span>
-          </div>
+          </a>
         </div>
       </div>
     </div>
