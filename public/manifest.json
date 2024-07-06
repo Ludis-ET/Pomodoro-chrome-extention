@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Pomodoro Timer",
+  "version": "1.0",
+  "description": "Pomodoro Timer Extension to help you stay focused.",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "alarms", "notifications", "activeTab"],
+  "web_accessible_resources": [
+    {
+      "resources": ["notification.wav"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
