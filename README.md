@@ -31,7 +31,9 @@
 
 <!-- ABOUT THE PROJECT -->
 
-[![Product Name Screen Shot][product-screenshot]](files/main.jpg)
+<a href="https://github.com/Ludis-et/Pomodoro-chrome-extention">
+    <img src="files/main.jpg" alt="Logo" width="100%">
+  </a>
 
 ## About The Project
 
