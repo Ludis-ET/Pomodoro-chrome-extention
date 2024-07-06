@@ -31,7 +31,7 @@
 
 <!-- ABOUT THE PROJECT -->
 
-[![Product Name Screen Shot][product-screenshot]](![files/main.png](https://github.com/Ludis-ET/Pomodoro-chrome-extention/blob/main/files/main.png))
+[![Product Name Screen Shot][product-screenshot]](https://github.com/Ludis-ET/Pomodoro-chrome-extention/blob/main/files/main.png)
 
 ## About The Project
 
